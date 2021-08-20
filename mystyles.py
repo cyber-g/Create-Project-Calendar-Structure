@@ -31,3 +31,6 @@ halfmonthstyle = Style(name="Half Month style", family="table-cell")
 halfmonthstyle.addElement(TextProperties(fontfamily="Arial", fontsize="13pt"))
 halfmonthstyle.addElement(TableCellProperties(verticalalign="middle",backgroundcolor="#eeeeee",border="0.1pt solid #000000"))
 halfmonthstyle.addElement(ParagraphProperties(textalign="center"))
+
+# Day style
+daystyle = Style(name="Default")
